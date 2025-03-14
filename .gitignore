@@ -177,3 +177,4 @@ venv*
 
 # Test data
 tests/test_data/*
+venv*
