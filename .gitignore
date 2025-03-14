@@ -132,6 +132,7 @@ celerybeat.pid
 .venv
 env/
 venv/
+venv*
 ENV/
 env.bak/
 venv.bak/
@@ -176,7 +177,5 @@ samples/*
 venv*
 
 # Test data
-tests/test_data/*
-venv*
-dist
-coverage.xml
+tests/test_data/*.tiff
+tests/test_data/*.tif

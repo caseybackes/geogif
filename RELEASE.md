@@ -1,6 +1,6 @@
-# RealGeoGIF Release Guide
+# GeoGIF Release Guide
 
-This document outlines the process for releasing new versions of the RealGeoGIF package. When a new release is created on GitHub, the package is automatically published to PyPI using GitHub Actions as a Trusted Publisher.
+This document outlines the process for releasing new versions of the GeoGIF (pypi: `RealGeoGIF`) package. When a new release is created on GitHub, the package is automatically published to PyPI using GitHub Actions as a Trusted Publisher.
 
 ## Release Preparation
 
