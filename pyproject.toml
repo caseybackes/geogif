@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "GeoGIF"
+name = "realgeogif"
 version = "0.1.0"
-description = "GeoGIF: GeoTIFF cross-bred with GIF for spatiotemporal data visualization"
+description = "Real GeoGIF: GeoTIFF cross-bred with GIF for spatiotemporal data visualization"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
