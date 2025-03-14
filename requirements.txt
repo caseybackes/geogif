@@ -1,0 +1,17 @@
+# Core dependencies
+numpy>=2.0.0
+Pillow>=9.0.0
+GDAL==3.9.3
+
+# Development dependencies (optional)
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+isort>=5.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+pre-commit>=3.3.2
+
+# Documentation (optional)
+sphinx>=6.0.0
+sphinx-rtd-theme>=1.0.0
