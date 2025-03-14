@@ -31,3 +31,28 @@ jobs:
       uses: pypa/gh-action-pypi-publish@release/v1
       with:
         repository-url: '' # only pypi. no test pypi.
+############################################################
+# Anatomy of a GitHub Actions Workflow File
+############################################################
+# name: Workflow Name                 # Top-level name of the entire workflow
+
+# on:                                 # Trigger definition section
+#   event_type:                       # Type of event that triggers workflow
+#     types: [specific_event_type]    # Specific subtypes of the event
+#     branches: [branch_name]         # Optional: branches to filter on
+
+# jobs:                               # Container for all jobs in the workflow
+#   job_id:                           # Unique identifier for a job
+#     name: Human-readable Job Name   # Optional: descriptive name for the job
+#     runs-on: os-type                # OS environment for the job
+
+#     steps:                          # Sequence of tasks within a job
+#       - name: Step Description      # Human-readable name for a step
+#         uses: action/identifier@version  # Reference to a reusable action
+#         with:                       # Input parameters for the action
+#           parameter_name: value     # Parameters specific to the action
+
+#       - name: Another Step          # Next step in the job
+#         run: command to run         # Shell command to execute
+#         env:                        # Environment variables for this step
+#           ENV_VAR: value            # Definition of environment variables
